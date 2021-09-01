@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+<link rel="stylesheet" href="static/style.css">
+
+<title>Ariel: A Shakespeare Game</title>
+<script src="static/jquery-3.5.0.js"></script> 
+<script src="static/jquery.scrollTo-min.js"></script> 
+<script src="static/ariel.js"></script>
+<script src="static/jquery-ui.js"></script>
+</head>
+
+<body>
+    <div id="container">
+
+         <div id="header">
+           <div id="headercontainer">
+
+            <div><h3 id="playname">{{play}}</h3></div>
+            
+            <div><h3 id="share">{{gamestate_link | safe}}</h3></div>
+            
+            <div><h3 id="return"><a id="returnlink" href="/">start over</a></h3></div>
+            
+            <div id="topbottom"></div>
+            </div>
+            <hr/>
+        </div>
+        <div id="maincontainer" style="">
+        <div id="maintext">
+			{{play_html_block | safe}}
+        </div>
+        
+        <div id="correlatedtexts">
+        	{{infratext_html_block | safe}}
+        </div>
+ 
+       <div id="articles">
+        </div>
+    </div>
+
+	</div>
+	 	<div id="footer">
+        <hr/>
+            <p><a id="infolink" href="http://www.johncmulligan.net/blog/2019/10/14/2019-rice-data-science-conference/" target="_blank">What is this?</a></p>
+        </dov>
+    </div>
+</body>
+ 
+</html>

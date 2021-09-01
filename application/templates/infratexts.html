@@ -1,0 +1,10 @@
+<center><a id="c_top" class="c_top">~clear selection~</a></center>
+<hr/>
+{% for passage in match_passages %}
+<div sytle="padding:5px;width:100%">
+<h5>{{passage.disp_line | safe}}</h5>
+<p><i>{{passage.match_article_html | safe}}</i></p>
+<p>{{passage.match_passage_html | safe}}</p>
+</div>
+<hr/>
+{% endfor %}

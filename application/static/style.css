@@ -1,0 +1,119 @@
+
+html {
+  background: url("waterhouse_tempest.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+hr {
+	margin:0px;
+}
+
+p {
+	margin:5px;
+}
+
+#header {
+	color:#f2a0a0;
+}
+
+#headercontainer {
+	color:#f2a0a0;
+}
+
+#footer {
+	text-align: right;
+}
+
+.A {
+	color:#187d66;
+}
+
+#footer a {
+	color:#c4f2f1;
+}
+
+.articlelink {
+	color:#96ffb2;
+}
+
+#gamestatelink{
+	color:#f2a0a0;
+}
+
+#returnlink{
+	color:#f2a0a0;
+}
+
+#playname {
+	overflow:scroll;
+	float:left;
+	width:35%;
+	text-align:center;
+}
+
+#share {
+	overflow:scroll;
+	float: left;
+	width: 35%;
+	text-align:center;
+}
+
+#return {
+	overflow:scroll;
+	float: left;
+	width: 25%;
+	text-align:center;
+}
+
+.articletext {
+	color:#d3f5dc;
+}
+
+#maintext {
+	color:#ffffff;
+	font-size:20px;
+	overflow:scroll;
+	float: left;
+	height: 100%;
+	width: 35%;
+	padding-right:5px
+}
+
+#correlatedtexts {
+	overflow:scroll;
+	float:left;
+	background:#edeeee75;
+	height:100%;
+	width:35%;
+	padding-left:5px;
+	padding-right:5px
+}
+
+#articles {
+	overflow:scroll;
+	float:left;
+	height:100%;
+	width:25%;
+	padding-left:5px;
+}
+
+#container {
+	width:98%;
+	height:100%
+}
+
+#maincontainer {
+	float: left;
+	width: 100%;
+}
+
+#topbottom {
+	clear:both
+}
+
+#footer {
+	clear:both;
+}
+
